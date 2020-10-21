@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    background-color: cadetblue;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#display {
+    border: 1px solid cadetblue;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    text-align: left;
+}
+#display-block1, #display-block2, #display-block3 {
+    display: inline;
+    font-size: 3rem;
+}
+#op_pad {
+    margin: 10px 0;
+}
+#num_pad {
+    grid-gap: 5px;
+    margin: auto;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+#num-0 {
+    grid-column: 2/3;
+}
+.op-key {
+    padding: 10px 15px;
+    background-color: cadetblue;
+    border: none;
+    margin: 0 3px;
+}
+.num-key {
+    padding: 10px 5px;
+    background-color: cadetblue;
+    border: none;
+}
+#log {
+    margin: 20px auto;
+}

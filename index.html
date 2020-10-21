@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Calculator</h2>
+    <div id="display">
+        <span id="display-block1"></span>
+        <span id="display-block2"></span>
+        <span id="display-block3"></span>
+    </div>
+    <div id="keypad">
+        <div id="op_pad">
+            <button id="op-add" class="op-key" value="+">+</button>
+            <button id="op-subtract" class="op-key" value="-">-</button>
+            <button id="op-multiply" class="op-key" value="*">x</button>
+            <button id="op-divide" class="op-key" value="/">/</button>
+            <button id="fraction-dot" class="op-key" value=".">.</button>
+        </div>
+        <div id="num_pad">
+            <button id="num-1" class="num-key" value="1">1</button>
+            <button id="num-2" class="num-key" value="2">2</button>
+            <button id="num-3" class="num-key" value="3">3</button>
+            <button id="num-4" class="num-key" value="4">4</button>
+            <button id="num-5" class="num-key" value="5">5</button>
+            <button id="num-6" class="num-key" value="6">6</button>
+            <button id="num-7" class="num-key" value="7">7</button>
+            <button id="num-8" class="num-key" value="8">8</button>
+            <button id="num-9" class="num-key" value="9">9</button>
+            <button id="btn-equal" class="num-key">=</button>
+            <button id="num-0" class="num-key" value="0">0</button>
+            <button id="btn-clear">clear</button>
+        </div>
+    </div>
+    <div id="log">
+        <textarea readonly  id="log-text" cols="30" rows="10"></textarea>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
