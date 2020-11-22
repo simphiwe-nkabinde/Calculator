@@ -29,7 +29,7 @@ const dpBox2 = document.getElementById('display-block2');
 const dpBox3 = document.getElementById('display-block3');
 
 //log panel
-const logBox = document.getElementById('log-text')
+const logPanel = document.getElementById('log-text')
 let logList = []; 
 
 
@@ -84,7 +84,7 @@ function outputResult() {
     let lastIndex = logList.length - 1;
     let logIndex0 = logList[lastIndex];
     lastLogOutput = `${logIndex0.value1} ${logIndex0.operation} ${logIndex0.value2} = ${logIndex0.result}`;
-    logBox.innerHTML = `${logBox.textContent} \n ${logList.length}: ${lastLogOutput}`;
+    logPanel.innerHTML = `${logPanel.textContent} \n ${logList.length}: ${lastLogOutput}`;
 
     dpBox1.innerHTML = result;
     dpBox2.innerHTML = '';
