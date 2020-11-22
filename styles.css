@@ -24,6 +24,13 @@ h2 {
 #op_pad {
     margin: 10px 0;
 }
+#op_pad > button {
+    cursor: pointer;
+}
+#num_pad > button {
+    cursor: pointer;
+}
+
 #num_pad {
     grid-gap: 5px;
     margin: auto;
